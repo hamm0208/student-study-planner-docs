@@ -50,10 +50,4 @@ The Student Study Planner System is a centralized platform designed for Swinburn
 		- Export as PDF
 		- Auto Solver
 		- Unit Amendments
-## Repository Structure
-
-## Tech Stack
-
-## Requirements
-
 
