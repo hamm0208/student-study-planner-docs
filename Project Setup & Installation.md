@@ -9,6 +9,7 @@
 Database:
 - Supabase Cloud ==(For deployed program)==
 - Supabase (Local Dockerized) ==(For local testing)==
+
 ## Setup
 ### Requirements & Prerequisites
 1. **[Node.js v18+](https://nodejs.org/en/download)**
@@ -31,6 +32,7 @@ Database:
 	1. Gmail address
 	2. App password (16 characters)
 7. Open AI API (Used for importing study planner Status: TBD])
+
 ### Setup
 Run the commands below in your terminal in your desired file location
 ```
@@ -50,6 +52,7 @@ npx prisma db push
 #Generate Prisma Client
 npx prisma generate
 ```
+
 ### Setup Environment Variables
 ```
 NEXT_PUBLIC_SERVER_URL = http://localhost:3000
