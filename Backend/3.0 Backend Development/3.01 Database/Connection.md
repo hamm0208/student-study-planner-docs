@@ -1,3 +1,4 @@
+TODO: Improve this by making this more detailed and easier to follow
 To extract local database scheme with data
 ```
 docker exec -it [NAME OF DOCKER CONTAINER] pg_dump -U postgres -d postgres > name_of_file.sql 
