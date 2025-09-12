@@ -40,7 +40,7 @@ new StudentStudyPlannerAmmendments({
 
 ---
 
-## Properties
+## Getters and Setters
 
 - **id**: Gets or sets the amendment's unique identifier.
 - **student_id**: Gets or sets the student's unique identifier.
@@ -53,14 +53,6 @@ new StudentStudyPlannerAmmendments({
 - **sem_index**: Gets or sets the semester index.
 - **sem_type**: Gets or sets the type of semester.
 - **term_id**: Gets or sets the term ID (if applicable).
-
----
-
-## Returns
-
-| Type      | Description                                      |
-|-----------|--------------------------------------------------|
-| Object    | An instance of `StudentStudyPlannerAmmendments`. |
 
 ---
 

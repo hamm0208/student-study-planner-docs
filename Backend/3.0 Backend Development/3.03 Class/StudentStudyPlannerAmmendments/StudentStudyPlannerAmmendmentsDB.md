@@ -112,4 +112,4 @@ const deleteResult = await StudentStudyPlannerAmmendmentsDB.DeleteAmendment(1);
 The class is exported as the default export from the module.
 
 ```js
-export default
+export default StudentStudyPlannerAmmendmentsDB;

@@ -53,4 +53,4 @@ console.log(semester.sem_type); // 'Long Semester'
 The class is exported as the default export from the module.
 
 ```js
-export
+export default SemesterInStudyPlannerYear;
