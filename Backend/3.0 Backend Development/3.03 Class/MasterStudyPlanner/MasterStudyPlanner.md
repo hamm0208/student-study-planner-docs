@@ -1,7 +1,15 @@
-## Overview
-
+# MasterStudyPlanner
 The `MasterStudyPlanner` class represents a master study planner entity, typically used to manage and track the status of a course intake for a academic program.
 
+---
+## Class Directory
+```directory
+src/app/class/
+	├── MasterStudyPlanner/
+		├── MasterStudyPlanner.js
+```
+
+---
 ## Constructor
 
 ```js
@@ -23,6 +31,15 @@ new MasterStudyPlanner({ id = null, course_intake_id, status })
 | **course_intake_id** | `number` | Gets or sets the associated course intake ID. |
 | **status**           | `string` | Gets or sets the planner’s status.            |
 
+---
+## Getters and Setters
+
+- `id`: Get or set the planner's ID.
+- `course_intake_id`: Get or set the course intake ID.
+- `status`: Get or set the planner's status.
+
+---
+
 ## Example Usage
 
 ```js
@@ -39,11 +56,7 @@ console.log(planner.course_intake_id); // 101
 console.log(planner.status); // 'complete'
 ```
 
-### Getters and Setters
-
-- `id`: Get or set the planner's ID.
-- `course_intake_id`: Get or set the course intake ID.
-- `status`: Get or set the planner's status.
+---
 
 ## Export
 

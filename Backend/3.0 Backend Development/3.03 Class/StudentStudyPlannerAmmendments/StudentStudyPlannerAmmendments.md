@@ -1,9 +1,14 @@
-# StudentStudyPlannerAmmendments Class Documentation
-
-## Overview
+# StudentStudyPlannerAmmendments
 
 The `StudentStudyPlannerAmmendments` class represents an amendment made to a student's study planner, such as adding, removing, or changing a unit. It encapsulates all relevant details about the amendment, including the affected unit, action type, and timing.
 
+---
+## Class Directory
+```directory
+src/app/class/
+	├── StudentStudyPlannerAmmendments/
+		├── StudentStudyPlannerAmmendments.js
+```
 ---
 
 ## Constructor
@@ -27,16 +32,16 @@ new StudentStudyPlannerAmmendments({
 
 | Name              | Type      | Description                                                        |
 |-------------------|-----------|--------------------------------------------------------------------|
-| id                | number    | Unique identifier for the amendment. Optional.                     |
-| student_id        | string    | Student's unique identifier. Optional.                             |
-| unit_code         | string    | Code of the unit being amended. Optional.                          |
-| new_unit_code     | string    | New unit code if the unit is being changed. Optional.              |
-| action            | string    | Type of action (e.g., "add", "remove", "change"). Optional.        |
-| time_of_action    | string    | Timestamp of when the action occurred. Optional.                   |
-| new_unit_type_id  | number    | ID of the new unit type if changed. Optional.                      |
-| year              | number    | Academic year of the amendment. Optional.                          |
-| sem_index         | number    | Index of the semester in the year. Optional.                       |
-| sem_type          | string    | Type of semester (e.g., "Long Semester", "Short Semester"). Optional. |
+| id                | `number`    | Unique identifier for the amendment. Optional.                     |
+| student_id        | `string`    | Student's unique identifier. Optional.                             |
+| unit_code         | `string`    | Code of the unit being amended. Optional.                          |
+| new_unit_code     | `string`    | New unit code if the unit is being changed. Optional.              |
+| action            | `string`    | Type of action (e.g., "add", "remove", "change"). Optional.        |
+| time_of_action    | `string`    | Timestamp of when the action occurred. Optional.                   |
+| new_unit_type_id  | `number`    | ID of the new unit type if changed. Optional.                      |
+| year              | `number`    | Academic year of the amendment. Optional.                          |
+| sem_index         | `number`    | Index of the semester in the year. Optional.                       |
+| sem_type          | `string`    | Type of semester (e.g., "Long Semester", "Short Semester"). Optional. |
 
 ---
 
