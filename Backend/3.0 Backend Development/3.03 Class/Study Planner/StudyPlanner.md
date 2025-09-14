@@ -1,13 +1,14 @@
-The StudyPlanner class serves as the core model for the master study planner view page. It manages all planner logic, including adding and removing unit rows and semesters, calculating next semester intakes, and detecting unit conflicts. The class also handles backend-related calculations and state updates to ensure the planner remains accurate and up-to-date.
-
-# StudyPlanner Class Documentation
-
-## Overview
-
-The `StudyPlanner` class serves as the core model for the study planner front page. It manages planner logic, including adding and removing unit rows and semesters, calculating next semester intakes, detecting unit conflicts, and maintaining backend-related calculations and state updates.
+# StudyPlanner
+The `StudyPlanner` class serves as the core model for the master study planner view page. It manages all planner logic, including adding and removing unit rows and semesters, calculating next semester intakes, and detecting unit conflicts. The class also handles backend-related calculations and state updates to ensure the planner remains accurate and up-to-date.
 
 ---
-
+## Class Directory
+```directory
+src/app/class/
+	├── StudyPlanner/
+		├── StudyPlanner.js
+```
+---
 ## Constructor
 
 ```js
