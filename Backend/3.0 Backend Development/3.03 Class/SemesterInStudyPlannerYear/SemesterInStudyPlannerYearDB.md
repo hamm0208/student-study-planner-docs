@@ -15,12 +15,9 @@ SemesterInStudyPlannerYearDB.FetchSemesterInStudyPlannerYears(params)
 ```
 
 #### Parameters
-| Name   | Type   | Description                                                  | Optional                  | Example |
-| ------ | ------ | ------------------------------------------------------------ | ------------------------- | ------- |
-| params | Object | Query parameters for filtering, sorting, and selecting data. | Yes (Return all if empty) |         |
-- **order_by**: Array of objects specifying columns and sort order.
-- **return**: Array of strings specifying which fields to return.
-- **exclude**: Array of strings specifying which fields to exclude.
+| Name   | Type   | Description                                                  | Optional                  |
+| ------ | ------ | ------------------------------------------------------------ | ------------------------- |
+| params | Object | Query parameters for filtering, sorting, and selecting data. | Yes (Return all if empty) |
 #### Params
 | Name                 | Optional | Type                   | Description                                                      | Example                                                   |
 | -------------------- | -------- | ---------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- |
@@ -143,4 +140,8 @@ const deleteResult = await SemesterInStudyPlannerYearDB.DeleteSemesterInStudyPla
 
 - All methods are asynchronous and return Promises.
 - Error handling is performed internally and errors are logged to the console.
-- The API endpoint is determined by the `NEXT_PUBLIC_SERVER_URL` environment variable.****
+- The API endpoint is determined by the `NEXT_PUBLIC_SERVER_URL` environment variable.
+
+```js
+export default SemesterInStudyPlannerYearDB;
+```
