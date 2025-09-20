@@ -26,12 +26,34 @@ new Terms({ id = null, name, year, month, semtype, status })
 ## Example Usage
 
 ```js
-Hello heloo 1 2 3
+import Terms from './term';
+
+const terms = new term({
+	id: 1,
+	name: '2025_FEB',
+	month: 'February',
+	semtype: 'Long Semester',
+	status: 'Published'
+});
+
+console.log(terms.id); //1
+console.log(terms.name); //2025_FEB
+console.log(terms.month); //February
+console.log(terms.semtype); //Long Semester 
+console.log(terms.status); //Published
 ```
 ## Getters and Setters
-
+- `id` : Get or set the term's ID.
+- `name`: Get or set the term's Name.
+- `month`: Get or set the term's Month.
+- `semtype`: Get or set the term's Semester Type.
+- `status`: Get or set the term's current Status.
 
 ## Export
 
+The class is exported as the default export from the module.
+```js
+export default Terms;
+```
 
 
