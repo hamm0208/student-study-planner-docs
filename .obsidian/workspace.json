@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/3.0 Backend Development/3.03 Class/Study Planner/StudyPlanner.md",
+                "file": "System Overview/1.4 Project Setup & Installation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "StudyPlanner"
+              "title": "1.4 Project Setup & Installation"
             }
           }
         ]
@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "Isaac",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -171,32 +172,33 @@
   },
   "active": "cc8a5818a7e87d7b",
   "lastOpenFiles": [
-    "Backend/3.0 Backend Development/3.03 Class/Study Planner/StudentStudyPlanner.md",
-    "Backend/3.0 Backend Development/3.03 Class/Study Planner/StudyPlanner.md",
-    "Backend/3.0 Backend Development/3.03 Class/StudentStudyPlannerAmmendments/StudentStudyPlannerAmmendments.md",
-    "Backend/3.0 Backend Development/3.03 Class/UnitInSemesterStudyPlanner/UnitInSemesterStudyPlanner.md",
-    "Backend/3.0 Backend Development/3.03 Class/UnitInSemesterStudyPlanner/UnitInSemesterStudyPlannerDB.md",
-    "Backend/3.0 Backend Development/3.03 Class/Terms/Terms.md",
-    "Backend/3.0 Backend Development/3.03 Class/StudentStudyPlannerAmmendments/StudentStudyPlannerAmmendmentsDB.md",
-    "Backend/3.0 Backend Development/3.03 Class/SemesterInStudyPlannerYear/SemesterInStudyPlannerYear.md",
+    "System Overview/1.3 Tech Stack.md",
+    "System Overview/1.1 Project Introduction.md",
     "Backend/3.0 Backend Development/3.03 Class/MasterStudyPlanner/MasterStudyPlannerDB.md",
     "Backend/3.0 Backend Development/3.03 Class/MasterStudyPlanner/MasterStudyPlanner.md",
-    "Backend/3.0 Backend Development/3.03 Class/Terms/TermsDB.md",
-    "Backend/3.0 Backend Development/3.03 Class/SemesterInStudyPlannerYear/SemesterInStudyPlannerYearDB.md",
-    "2.0 Root Directory.md",
     "Backend/3.0 Backend Development/3.01 Database/Connection.md",
-    "Codebase Structure/1.0 Overview.md",
-    "Frontend/3.0 Views.md",
+    "System Overview/1.4 Project Setup & Installation.md",
+    "Frontend/4.0 Dashboard.md",
+    "Backend/3.0 Backend Development/3.03 Class/Units/UnitsDB.md",
+    "Backend/3.0 Backend Development/3.03 Class/Units/Units.md",
+    "Backend/3.0 Backend Development/3.03 Class/Units",
     "Frontend/2.0 Layout.md",
     "Frontend/1.0 Introduction.md",
-    "Frontend/6.0 Styling.md",
-    "Frontend/5.0 Components.md",
-    "Frontend/4.0 Dashboard.md",
     "Codebase Structure/4.0 Database.md",
     "Codebase Structure/3.0 Frontend.md",
     "Codebase Structure/2.0 Backend.md",
-    "System Overview/1.1 Project Introduction.md",
+    "Codebase Structure/1.0 Overview.md",
+    "Backend/3.0 Backend Development/3.03 Class/Terms/Terms.md",
+    "Backend/3.0 Backend Development/3.03 Class/Study Planner/StudyPlanner.md",
+    "System Overview/1.2 System Goal.md",
     "System Overview/1.5 Key Feature.md",
+    "Backend/3.0 Backend Development/3.03 Class/Terms/TermsDB.md",
+    "Backend/3.0 Backend Development/3.03 Class/Study Planner/StudentStudyPlanner.md",
+    "Backend/3.0 Backend Development/3.03 Class/StudentStudyPlannerAmmendments/StudentStudyPlannerAmmendments.md",
+    "Backend/3.0 Backend Development/3.03 Class/UnitInSemesterStudyPlanner/UnitInSemesterStudyPlanner.md",
+    "Backend/3.0 Backend Development/3.03 Class/UnitInSemesterStudyPlanner/UnitInSemesterStudyPlannerDB.md",
+    "Backend/3.0 Backend Development/3.03 Class/StudentStudyPlannerAmmendments/StudentStudyPlannerAmmendmentsDB.md",
+    "Backend/3.0 Backend Development/3.03 Class/SemesterInStudyPlannerYear/SemesterInStudyPlannerYear.md",
     "Backend/3.0 Backend Development/3.03 Class/UnitInSemesterStudyPlanner",
     "Backend/3.0 Backend Development/3.03 Class/StudentStudyPlannerAmmendments",
     "Backend/3.0 Backend Development/3.03 Class/SemesterInStudyPlannerYear",
@@ -205,7 +207,6 @@
     "Backend/3.0 Backend Development/3.03 Class/UnitType",
     "Backend/3.0 Backend Development/3.03 Class/Unit",
     "Backend/1.0 Introduction",
-    "System Overview",
-    "Codebase Structure/4.0 Frontend"
+    "System Overview"
   ]
 }
