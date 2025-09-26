@@ -23,3 +23,12 @@ Connecting to the cloud server through psql
 ```bash
 postgresql://postgres.[PROJECT-REF]:[YOUR-PASSWORD]@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres
 ```
+
+```
+psql -U postgres -d postgres -c "
+DROP SCHEMA public CASCADE;
+CREATE SCHEMA public;
+GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA public TO public;
+"
+```

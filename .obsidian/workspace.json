@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/3.0 Backend Development/3.03 Class/Study Planner/StudyPlanner.md",
+                "file": "Backend/3.0 Backend Development/3.03 Class/MasterStudyPlanner/MasterStudyPlannerDB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "StudyPlanner"
+              "title": "MasterStudyPlannerDB"
             }
           }
         ]
@@ -171,20 +171,20 @@
   },
   "active": "cc8a5818a7e87d7b",
   "lastOpenFiles": [
-    "Backend/3.0 Backend Development/3.03 Class/Study Planner/StudentStudyPlanner.md",
     "Backend/3.0 Backend Development/3.03 Class/Study Planner/StudyPlanner.md",
+    "Backend/3.0 Backend Development/3.01 Database/Connection.md",
+    "Backend/3.0 Backend Development/3.03 Class/MasterStudyPlanner/MasterStudyPlannerDB.md",
+    "Backend/3.0 Backend Development/3.03 Class/Study Planner/StudentStudyPlanner.md",
     "Backend/3.0 Backend Development/3.03 Class/StudentStudyPlannerAmmendments/StudentStudyPlannerAmmendments.md",
     "Backend/3.0 Backend Development/3.03 Class/UnitInSemesterStudyPlanner/UnitInSemesterStudyPlanner.md",
     "Backend/3.0 Backend Development/3.03 Class/UnitInSemesterStudyPlanner/UnitInSemesterStudyPlannerDB.md",
     "Backend/3.0 Backend Development/3.03 Class/Terms/Terms.md",
     "Backend/3.0 Backend Development/3.03 Class/StudentStudyPlannerAmmendments/StudentStudyPlannerAmmendmentsDB.md",
     "Backend/3.0 Backend Development/3.03 Class/SemesterInStudyPlannerYear/SemesterInStudyPlannerYear.md",
-    "Backend/3.0 Backend Development/3.03 Class/MasterStudyPlanner/MasterStudyPlannerDB.md",
     "Backend/3.0 Backend Development/3.03 Class/MasterStudyPlanner/MasterStudyPlanner.md",
     "Backend/3.0 Backend Development/3.03 Class/Terms/TermsDB.md",
     "Backend/3.0 Backend Development/3.03 Class/SemesterInStudyPlannerYear/SemesterInStudyPlannerYearDB.md",
     "2.0 Root Directory.md",
-    "Backend/3.0 Backend Development/3.01 Database/Connection.md",
     "Codebase Structure/1.0 Overview.md",
     "Frontend/3.0 Views.md",
     "Frontend/2.0 Layout.md",
