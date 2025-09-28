@@ -20,8 +20,19 @@ new StudyPlanner()
 this.details = {
 	id: -1,
 	status: '',
-	course: {},
-	intake: {},
+	course: {
+		course_name: "",
+		course_code: "",
+		credits_required: 0,
+		major_name: "",
+		major_id: -1
+	},
+	intake: {
+		month: 0,
+		name: "",
+		sem_type: "",
+		year: 0,
+	},
 	unit_types: [],
 	recommended_electives: []
 };
