@@ -1,11 +1,16 @@
-## Overview
-`TermsDB` is a static utility class to interact with the Terms API. It provides the crucial methods to fetch, create, update and delete terms records from the backend. 
+# termDB
+`termDB` is a static utility class to interact with the Terms API. It provides the crucial methods to fetch, create, update and delete terms records from the backend. 
 
 --- 
-
+## Class Directory
+```directory
+src/app/class/
+	├── Term/
+		├── termDB.js
+```
 ## Methods 
 
-### 1. FetchTerms
+### FetchTerms
 This method is used to specifically fetch the terms from the server with optional query parameters. 
 
 ```js
@@ -58,7 +63,7 @@ exclude:{
 
 ---
 
-## 2. AddTerms
+##  AddTerms
 
 Adds a new master study planner to the server. 
 ```js
@@ -81,7 +86,7 @@ Terms.AddTerms(term_id)
 
 ---
 
-## 3 UpdateTerms
+## UpdateTerms
 Updates an existing Term on the server. 
 
 ```js
@@ -125,5 +130,10 @@ term_id: 15, status: 'Unpublished'
 
 - All methods are asynchronous and return Promises.
 - Error handling is performed internally and errors are logged to the console. 
-- The API endpoint is determined by the `NEXT_PUBLIC_SERVER_URL`
+- The API endpoint is determined by the `NEXT_PUBLIC_SERVER_URL` environment variable.
 
+```javascript
+
+export default termDB;
+
+```

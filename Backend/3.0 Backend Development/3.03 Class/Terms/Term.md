@@ -1,10 +1,17 @@
-## Overview
-
+# Term
 The `Term` class class represents the Terms of the Study Planner, which represents a fix study period for the students to register in, for units that are available in specific terms.
+
+---
+## Class Directory
+```directory
+src/app/class/
+	├── Term/
+		├── term.js
+```
 
 ## Constructor
 ```js
-new Terms({ id = null, name, year, month, semtype, status })
+new Term({ id = null, name, year, month, semtype, status })
 ```
 ## Parameters
 | Name        | Type      | Description                                                                  |
